@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+  import HeroBanner from '@/components/HeroBanner/index.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="bg-red-950 h-full w-full">
+    <HeroBanner />
+  </div>
 </template>
