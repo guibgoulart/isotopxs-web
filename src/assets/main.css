@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes spin-horizontal {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.animation-spin-horizontal {
+  @apply animate-spin-horizontal;
+}
+
+@layer components {
+  .animate-spin-horizontal {
+    animation: spin-horizontal 4s linear infinite;
+  }
+}
