@@ -6,8 +6,8 @@
     <img src="../../assets/images/logo.png" class="w-20 absolute left-5 hover:cursor-pointer hover:animate-spin-horizontal" />
     <div class="flex flex- gap-6">
       <a class="text-white hover:text-red-800 hover:cursor-pointer font-carrois-gothic" target="_blank" :href="twitterUrl">Twitter</a>
-      <a class="text-white hover:text-red-800 hover:cursor-pointer" target="_blank" :href="instagramUrl">Instagram</a>
-      <a class="text-white hover:text-red-800 hover:cursor-pointer">Listen</a>
+      <a class="text-white hover:text-red-800 hover:cursor-pointer font-carrois-gothic" target="_blank" :href="instagramUrl">Instagram</a>
+      <a class="text-white hover:text-red-800 hover:cursor-pointer font-carrois-gothic">Listen</a>
     </div>
   </div>
 </template>
