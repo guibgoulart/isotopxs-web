@@ -15,6 +15,10 @@
   @apply animate-spin-horizontal;
 }
 
+body {
+  font-family: 'carrois-gothic', sans-serif;
+}
+
 @layer components {
   .animate-spin-horizontal {
     animation: spin-horizontal 4s linear infinite;
