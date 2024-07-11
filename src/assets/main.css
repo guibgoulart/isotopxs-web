@@ -16,7 +16,8 @@
 }
 
 body {
-  font-family: 'carrois-gothic', sans-serif;
+  /*font-family: 'carrois-gothic', sans-serif;*/
+  font-family: 'roboto', sans-serif
 }
 
 @layer components {

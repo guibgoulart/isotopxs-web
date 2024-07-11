@@ -1,6 +1,6 @@
 <template>
     <div 
-      class="relative w-64 h-64 overflow-hidden perspective"
+      class="relative size-[450px] overflow-hidden perspective"
       ref="container"
     >
       <img 
@@ -40,11 +40,11 @@
         const { width, left } = container.getBoundingClientRect();
         
         // Calcula a posição relativa do mouse dentro do elemento
-        const x = (this.mouseX - left) / width - 0.5;
+        const x = (this.mouseX - left) / width - 0.8;
   
         // Aplica o amortecimento ao valor de rotação no eixo X
         const targetRotateX = + 40 * x;
-  
+           
         this.rotateX += (targetRotateX - this.rotateX) * this.dampingFactor;
   
         // Atualiza a rotação da imagem

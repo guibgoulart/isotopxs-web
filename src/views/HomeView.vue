@@ -7,9 +7,9 @@ import SpotifyListen from '@/components/SpotifyListen.vue'
   <div class="h-full w-full bg-red-900">
     <HeroBanner />
     <div
-      class="w-full text-white noise-bg text-lg mix-blend-overlay opacity-10 z-50 h-screen"
+      class="w-full text-white noise-bg text-lg mix-blend-overlay opacity-20 z-50 h-screen"
     ></div>
-    <div class="flex flex-col px-4 pt-5 gap-4 z-10 w-full h-full absolute top-[368px]">
+    <div class="flex flex-col px-4 pt-24 gap-4 z-10 w-full h-full absolute top-[25rem]">
       <SpotifyListen class="w-96"/>
     </div>
     <div

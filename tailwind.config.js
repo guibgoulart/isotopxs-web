@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'carrois-gothic': ['Carrois Gothic Sc', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
       },
     },
   },
